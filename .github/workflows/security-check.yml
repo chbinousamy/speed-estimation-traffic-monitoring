@@ -3,10 +3,10 @@ name: Security Check
 on:
   push:
     branches:
-      - main
+      - b
   pull_request:
     branches:
-      - main
+      - b
 
 jobs:
   security_check:
